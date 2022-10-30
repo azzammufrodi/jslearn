@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe data Object</title>
+</head>
+<body>
+
+    <script>    
+    
+    const person = {
+        nama  : "SAM WIJAYA",
+        regional : "Indonesian",
+        rank : 98
+    };
+        
+        // person["nama"]  = "Sam Wijaya";
+        // person["Regional"]  = "Indonesia";
+        // person["Rank"] = "98";
+
+        console.info(`nama : ${person.nama}`);
+        console.info(`regional : ${person.regional}`);
+        console.info(`rank : ${person.rank}`);
+        
+        console.table(person);
+
+        delete person["Rank"];
+
+        console.table(person);
+
+    
+
+    </script>
+
+
+</body>
+</html>
